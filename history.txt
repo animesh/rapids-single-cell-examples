@@ -1,0 +1,46 @@
+    1  sudo apt update
+    2  sudo apt upgrade 
+    3  curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    4  bash Mambaforge-$(uname)-$(uname -m).sh
+    5  xclock
+    6  sudo apt install x11-apps
+    7  xclock
+    8  mamba create -n rapids-22.06 -c rapidsai -c nvidia -c conda-forge cudf=22.06 cuml=22.06 python=3.9 cudatoolkit=11.5
+    9  mamba activate rapids-22.06
+   10  tmux
+   11  ls
+   12  mv Mambaforge-Linux-x86_64.sh /mnt/f/.
+   13  ln -s /mnt/f
+   14  cd f
+   15  git clone https://github.com/animesh/rapids-single-cell-examples/tree/master
+   16  git clone https://github.com/animesh/rapids-single-cell-examples
+   17  cd rapids-single-cell-examples/
+   18  dir
+   19  mamba env create --name rapidgenomics -f conda/rapidgenomics_cuda11.0.yml 
+   20  sudo apt-get install libomp-dev
+   21  mamba env create --name rapidgenomics -f conda/rapidgenomics_cuda11.0.yml 
+   22  mamba env create --name rapidomics -f conda/rapidgenomics_cuda11.0.yml 
+   23  sudo apt-get install libomp
+   24  cc
+   25  gcc
+   26  cc
+   27  sudo apt install gcc 
+   28  mamba env create --name rapidomic -f conda/rapidgenomics_cuda11.0.yml 
+   29  g++
+   30  sudo apt install g++
+   31  mamba env create --name rapidome -f conda/rapidgenomics_cuda11.0.yml 
+   32  conda env create --name rapidome-viz -f conda/rapidgenomics_cuda11.0.viz.yml 
+   33  mamba env create --name rapidome-viz -f conda/rapidgenomics_cuda11.0.viz.yml 
+   34  conda activate rapidome-viz
+   35  jupyter-laba
+   36  jupyter-lab
+   37  python -m ipykernel install --user --display-name "Python (rapidgenomics-viz)"
+   38  jupyter-lab
+   39  mamba  install -c nvidia cuda-python=11.7.0
+   40  conda deactivate rapidome-viz
+   41  conda deactivate
+   42  conda activate rapidome-viz
+   43  jupyter-lab
+   44  git status
+   45  history 
+   46  history >> history.txt
